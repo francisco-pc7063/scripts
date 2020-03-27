@@ -14,7 +14,7 @@ apt install \
   automake autoconf libreadline-dev \
   libncurses-dev libssl-dev libyaml-dev \
   libxslt-dev libffi-dev libtool unixodbc-dev \
-  unzip curl
+  unzip curl net-tools
 source ~/.bashrc
 asdf update
 
