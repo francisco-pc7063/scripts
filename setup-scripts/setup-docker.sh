@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #must be run as root
-` [ whoami == 'root' ] ` && echo "oi"
+#` [ whoami == 'root' ] ` && echo "oi"
 
 apt update && apt upgrade
 apt install apt-transport-https ca-certificates curl software-properties-common gnupg2
