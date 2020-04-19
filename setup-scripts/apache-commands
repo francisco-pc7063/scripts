@@ -1,0 +1,29 @@
+#I M A G E S
+
+docker build "Build image from Dockerfile"
+docker search "image name" #search for image
+docker pull "image name" #download image
+docker images #saved images
+docker save #save image into tar archive
+docker rmi #remove images
+
+#Favorite images
+httpd:2.4
+ubuntu
+hello-world
+
+
+docker create
+docker run
+docker rm
+
+docker logs
+docker stop
+docker kill
+docker start
+docker stats
+docker pause
+docker unpause
+docker top
+docker exec
+docker update
