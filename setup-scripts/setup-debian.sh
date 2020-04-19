@@ -12,7 +12,7 @@ build-essential dkms linux-headers-$(uname -r)
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.8
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
-apt install \
+sudo apt install \
   automake autoconf libreadline-dev \
   libncurses-dev libssl-dev libyaml-dev \
   libxslt-dev libffi-dev libtool unixodbc-dev \
@@ -35,4 +35,4 @@ pip install virtualenv
 
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-apt update && sudo apt install yarn
+sudo apt update && sudo apt install yarn
