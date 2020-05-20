@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 echo -e "\n\n############# ALIAS ###########\n \
         alias ll='ls -lha'\n \
         alias grep='grep --color=auto'\n \
