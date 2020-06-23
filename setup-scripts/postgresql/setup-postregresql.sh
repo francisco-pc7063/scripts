@@ -7,6 +7,10 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 apt update && apt install -f postgresql-12
 
-systemctl start postregresql
+systemctl start postgresql
+
+apt install postgresql-contrib-12
+
+sytemctl start postgresql
 
 sudo -u postgres psql
